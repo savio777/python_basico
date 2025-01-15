@@ -21,3 +21,5 @@ print("divisão (parte inteira) -> 10 // 3:", 10 // 3)
 print("resto da divisão -> 10 % 2:", 10 % 2)
 
 print("resto da divisão -> 10 % 3:", 10 % 3)
+
+print("exponenciação -> 10 ** 3:", 10**3)
