@@ -32,3 +32,5 @@ elif averageNotes >= 5:
     print("Você está de exame", averageNotes)
 else:
     print("Você não está aprovado", averageNotes)
+
+print("\n", True if "H" in "Hello World" else False)
