@@ -5,7 +5,7 @@ def response1():
     number = int(input("Digite o número da tablea que deseja: "))
 
     for item in range(21):
-        print(item * number, end=" ")
+        print(f"{item} x {number} = {item * number}")
 
 
 def response2():
@@ -21,7 +21,7 @@ def response2():
 
     listFibonacci = [0, 1]
 
-    for i in range(2, number):
+    for _ in range(2, number):
         listFibonacci.append(listFibonacci[-1] + listFibonacci[-2])
     print("\n", listFibonacci)
 
